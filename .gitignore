@@ -34,3 +34,11 @@ bin/
 ### Maven ###
 target/
 *.log
+
+### AWS CDK ###
+cdk.out/
+.cdk.staging/
+
+### Segurança e Variáveis de Ambiente ###
+# Evita subir ficheiros com chaves locais acidentalmente
+.env
